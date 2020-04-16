@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html
+{
+  scroll-behavior:smooth;
+
+}
+.navbar
+{
+  border-bottom: 2px solid pink;
+}
+.navbar-brand 
+{
+  font-family: 'Bitter', serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+  letter-spacing:0.1rem;
+  text-transform:uppercase;
+}
+.navbar-nav a {
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  top: fixed;
+}
+.navbar-nav {
+  text-align: center;
+}
+.nav-link {
+  padding: 0.2rem 1rem;
+  padding-bottom: 1rem;
+}
+.nav-link.active,
+.nav-link:focus {
+  color: #f1c1c1 !important;
+}
+
+/*----welcome-----*/
+.wrapper {
+  background-image: url(1.jpg);
+  background-position:center;
+  background-size:cover;
+  position: relative;
+  min-height: 90vh;
+  min-width: 100%;
+}
+.wrapper h1 {
+  padding-top: 150px;
+  margin-left: 50px;
+  font-family: 'Permanent Marker', cursive;
+  color: #fff;
+}
+.heading span{
+  color: rgb(255, 151, 151);
+}
+.wrapper a:hover{
+  color: rgb(233, 167, 167);
+  text-decoration: none;
+}
+.wrapper p {
+  margin-left: 50px;
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Permanent Marker', cursive;
+}
+.btn {
+  margin-left: 70px;
+}
+
+/*---about-me-------*/
+#about-me
+{
+  padding:2rem;
+  font-family: 'Changa', sans-serif;
+  background-color: rgb(216, 241, 235);
+}
+#about-me img
+{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+}
+#about-me .heading
+{
+  margin-top:20px;
+}
+.skill .head
+{
+  margin:40px;
+}
+.skill ,ul
+{
+  margin-top: 20px;
+  list-style: none;
+  line-height: 2.5rem;
+}
+
+/*----work----*/
+#work {
+  padding-top:30px;
+  padding-bottom: 30px;
+  font-family: 'Changa', sans-serif;
+}
+.inner{
+  overflow:hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform: scale(1.5);
+}
+
+#card-body, h2 
+{
+  font-family:'Fjalla One', sans-serif;
+}
+#card-body, .icon-bar
+{
+  width:80px;
+}
+#card-body, .icon-bar, .fa
+{
+  display:inline;
+  text-align:center;
+  font-size:2rem;
+  transition: all 0.3s ease;
+  color:black;
+}
+.fa
+{
+  color:rgb(130, 130, 248);
+  padding:30px;
+}
+
+
+/*------contact-me-----*/
+#contact-me
+{
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.664);
+}
+.head-contact
+{
+  padding:20px;
+  font-family: 'Changa', sans-serif;
+}
+.contact
+{
+  display:block;
+  margin:50px 50px;
+}
+.form
+{
+  display:block;
+}
+
+/*--footer----*/
+
+.footer
+{
+  background-color: rgba(248, 233, 233, 0.925);
+  padding-top: 10px;
+}
+.footer p
+{
+  font-family:'Cinzel', serif;
+  margin: 0px;
+  font-size: 1.2rem;
+  
+}
+ 
+
+
+
+
+
+
